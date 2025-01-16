@@ -28,7 +28,8 @@ const SignupForm = () => {
         <Typography color="blue" className="mt-1 font-normal">
           Heureux de vous retrouver. Veuillez vous enregistrer.
         </Typography>
-        <form className="mt-6 mb-6 grid grid-cols-1 md:grid-cols-2 gap-6" onSubmit={handleSubmit(onSubmit)}>
+        <form className="mt-6 mb-6 w-full max-w-[550px] grid grid-cols-1 md:grid-cols-2 gap-6" onSubmit={handleSubmit(onSubmit)}>
+
           {/* Champ Nom */}
           <div>
             <Controller
