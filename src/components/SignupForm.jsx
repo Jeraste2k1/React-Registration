@@ -21,7 +21,7 @@ const SignupForm = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-400 p-4">
-      <Card color="transparent" shadow={true} className="bg-white p-6 w-full max-w-4xl">
+      <Card color="transparent" shadow={true} className="bg-white p-6">
         <Typography variant="h4" color="blue-gray">
           Sign Up
         </Typography>
